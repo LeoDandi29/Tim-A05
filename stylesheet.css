@@ -1,11 +1,14 @@
-body {
-	font-family: Avenir Next;
+* {
+	box-sizing: border-box;
 }
 
-li {
-	list-style: none;
-	float: left;
-	padding: 33px 50px;
+body {
+	margin: 0;
+	font-family: "Lucida Grande";
+}
+
+a {
+	text-decoration: none;
 }
 
 .header {
@@ -18,3 +21,38 @@ li {
 	float: left;
 	padding: 20px 40px;
 }
+
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(41, 219, 255, 0.9);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+ .header-right {
+	float: right;
+	margin-right: 25px;
+}
+
+ .header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	display: block;
+	float: left;
+	transition: all 0.5s;
+  }
+
+  .header-right a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .menu-icon {
+	  color: white;
+	  float: right;
+	  font-size: 25px;
+	  padding: 21px 0;
+	  display: 0;
+  }
