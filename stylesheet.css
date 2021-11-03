@@ -36,3 +36,33 @@ table,td,tr{
     position:absolute;
     color:black;
 }
+
+.pic1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.pic2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: lightblue;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.pic3{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
