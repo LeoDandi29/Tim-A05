@@ -1,28 +1,38 @@
-body {
-	font-family: Avenir Next;
+
+body{
+    background-color:blanchedalmond;  
 }
 
-li {
-	list-style: none;
-	float: left;
-	padding: 33px 50px;
+table,td,tr{
+    border: 0;
+    border-style:hidden;
 }
 
-.header {
-	background-color: #81ecec;
-	height: 90px;
+.foto-profile img{
+    border-radius: 50%;
 }
 
-.header-logo {
-	font-size: 36px;
-	float: left;
-	padding: 20px 40px;
+.hello p1{
+    font-family: sans-serif;
+    font-size: 60px;
 }
-footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: aqua;
-	color: white;
-	text-align: center;
+.hello p3{
+    font-size: 40px;
+}
+
+.about{
+    font-family: sans-serif; 
+    font-size: 20px;
+}
+
+.icon img{
+    text-align: center;
+    position: relative;
+    align-content:middle;
+    border-radius: 50%;
+}
+
+.icon p {
+    position:absolute;
+    color:black;
+}
