@@ -11,6 +11,34 @@ a {
 	text-decoration: none;
 }
 
+.clear {
+	clear: left;
+}
+
+li {
+	list-style: none;
+}
+
+.header {
+	background-color: rgba(41, 219, 255, 0.9);
+	height: 90px;
+}
+
+.header-logo {
+	float: left;
+	font-size: 36px;
+	padding: 20px 40px;
+}
+
+.header-list li {
+	float: left;
+	padding: 33px 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
 .icon img{
     text-align: center;
     position: relative;
@@ -24,37 +52,29 @@ a {
 	padding: 20px 40px;
 }
 
-header {
-	height: 65px;
-	width: 100%;
-	background-color: rgba(41, 219, 255, 0.9);
-	position: fixed;
-	top: 0;
-	z-index: 10;
-}
-
- .header-right {
+.header-right {
 	float: right;
-	margin-right: 25px;
+	margin-right: 20px;
 }
 
- .header-right a {
-	line-height: 65px;
-	padding: 0 25px;
-	color: white;
-	display: block;
-	float: left;
-	transition: all 0.5s;
-  }
+.header-right a {
+  line-height: 65px;
+  padding: 10px 25px;
+  color: rgb(15, 14, 14);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
 
-  .header-right a:hover {
+.header-right a:hover {
 	background-color: rgba(255, 255, 255, 0.3);
   }
 
-  .menu-icon {
-	  color: white;
-	  float: right;
-	  font-size: 25px;
-	  padding: 21px 0;
-	  display: 0;
+.menu-icon {
+	color: white;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+	/* Gantikan property display ke none */
+	display: none;
   }
