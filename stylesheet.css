@@ -20,14 +20,8 @@ li {
 }
 
 .header {
-	background-color: rgba(41, 219, 255, 0.9);
+	background-color: rgba(255, 253, 208);
 	height: 90px;
-}
-
-.header-logo {
-	float: left;
-	font-size: 36px;
-	padding: 20px 40px;
 }
 
 .header-list li {
@@ -39,17 +33,11 @@ a {
 	text-decoration: none;
 }
 
-.icon img{
-    text-align: center;
-    position: relative;
-    align-content:middle;
-    border-radius: 50%;
-}
-
 .header-logo {
 	font-size: 36px;
 	float: left;
 	padding: 20px 40px;
+	color: brown;
 }
 
 .header-right {
@@ -60,14 +48,14 @@ a {
 .header-right a {
   line-height: 65px;
   padding: 10px 25px;
-  color: rgb(15, 14, 14);
+  color: brown;
   display: block;
   float: left;
   transition: all 0.5s;
 }
 
 .header-right a:hover {
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(188, 143, 143, 0.3);
   }
 
 .menu-icon {
@@ -77,3 +65,9 @@ a {
 	padding: 21px 0;
 	display: none;
   }
+
+img {
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+}
